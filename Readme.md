@@ -14,8 +14,8 @@ This repository contains all the Live session Codes as well as the Homework Ques
 
 
 
-<!--Tables:
-1. <table>  Define the structure of organising data in rows and columns 
+Tables:
+1. <table> --> Define the structure of organising data in rows and columns 
 
 2. <tr></tr> -> Represents a row within an html table, containing individual cells
 
@@ -27,13 +27,13 @@ This repository contains all the Live session Codes as well as the Homework Ques
 
 6. <thead>Defines the header section of table</thead>
 
-7. <tbody></tbody> -> Represents the main content area of a ta -->
+7. <tbody></tbody> -> Represents the main content area of a ta
 
 ## Forms:
 
 // Attributes of input field
 
-<!--1.type: type of input element
+1.type: type of input element
 2.value : specify the value of input element
 3.placeholder : expected value of input field
 4.name : name of the element
@@ -42,4 +42,4 @@ This repository contains all the Live session Codes as well as the Homework Ques
 7.required: must field,which you cannot leave empty
 8.width:
 9.height:
-10.maxlength:   -->
+10.maxlength:
