@@ -17,17 +17,17 @@ This repository contains all the Live session Codes as well as the Homework Ques
 Tables:
 1. <table> --> Define the structure of organising data in rows and columns 
 
-2. <tr></tr> -> Represents a row within an html table, containing individual cells
+2. tr -> Represents a row within an html table, containing individual cells
 
-3. <th></th> -> Shows a table header that typically holds titles and headings
+3. th -> Shows a table header that typically holds titles and headings
 
-4. <td>Represents a standard data cell, holding content or data</td>
+4. td -> Represents a standard data cell, holding content or data
 
-5. <caption>Provides a title or description for the netire table </caption>
+5. caption -> Provides a title or description for the netire table 
 
-6. <thead>Defines the header section of table</thead>
+6. thead -> Defines the header section of table
 
-7. <tbody></tbody> -> Represents the main content area of a ta
+7. tbody -> Represents the main content area of a ta
 
 ## Forms:
 
