@@ -15,7 +15,7 @@ This repository contains all the Live session Codes as well as the Homework Ques
 
 
 Tables:
-1. <table> --> Define the structure of organising data in rows and columns 
+1. table -> Define the structure of organising data in rows and columns 
 
 2. tr -> Represents a row within an html table, containing individual cells
 
