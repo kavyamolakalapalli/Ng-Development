@@ -1,0 +1,30 @@
+/* display: inline grid means it showa in a line */
+.grid-container{
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 5px;
+    grid-column-gap: 50px;
+}
+
+.grid-container > div{
+    background-color: aqua;
+    border: 10px solid black;
+    border-width: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-Item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid-Item4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+h1{
+    color:green;
+    text-align: center;
+}

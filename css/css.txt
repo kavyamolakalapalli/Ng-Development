@@ -1,0 +1,566 @@
+CSS 
+
+CASCADING STYLES SHEETS 
+
+--> Language is used to style and enhance the html documents. 
+--> It defines the presentation of html elements on a webpage, enhancing chnages to fonts, colours, sizes, spaces, column layouts, animations, etc.
+
+Different Ways to Use CSS :
+
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+Advantages of CSS :
+
+1. It reduces the file transfer size 
+2. Easy for the user to customize the online webpage 
+3. It has the power for repositioning 
+4. It is less complex therefore the efforts are significantly reduced. 
+5. Stles are applied consistently over variety of sites.
+
+
+Disadvantages :
+
+1. CSS, CSS1 TO CSS3 , results in confusion among web browsers 
+2. There exists a security issue 
+3. There might be a cross browser issues 
+4. Browser compatibility 
+5. After making the changes, we need to check if they appear or not 
+
+
+CSS SYNTAX :
+
+Consists of a selector, property and its value 
+Selector --> Points to the elements where the css is to be applied 
+CSS Property is separated by semi colons 
+Property:value 
+
+selector {property : value }
+
+h1{color:red}
+
+p{color: red, font-size: 12px, padding: 1px};
+
+P-> selector 
+color, font-size, padding --> property 
+red, 12px, 1px --> value
+
+Declaration : A combination of a property and its corresponding value 
+
+Selector : Used to target or select the elements on which I want to apply styles 
+
+Property : specific characteristics of the element 
+
+value : Assigned parameter 
+
+
+
+CSS SELECTORS 
+
+These are used to target the HTML elements on your web pages i.e it is used to beautify the specific element. 
+
+Types of Selectors :
+
+1. Universal Selector 
+2. Simple Selector
+3. pseudo element selector 
+4. combinator selector 
+5. pseudo class selector 
+
+
+Universal Selecctor : when you want to apply the styles to the whole page. 
+
+*{
+    color:red
+}
+
+Simple Selectors :
+
+Id 
+Class 
+Tag Name (element name)
+
+<h1></h1>
+
+h1{
+    ......
+}
+
+#One{
+    color:blue
+    font-size: 12px;
+}
+
+Class Element :
+
+.List-Item{
+    color: green,
+    Padding : 1px,
+    font-style: italic
+}
+
+
+Group Selector : is used to style all comma separated elements within the same style 
+
+#div-container,.paragrapg, h1{
+    color: white,
+    background-color:green
+}
+
+Attribute Selector:
+
+[href]{
+    background:
+    color:
+    font-size:
+}
+
+[alt]{
+
+}
+
+Pseudo Class selector 
+
+h1:hover{
+    color:green
+}
+
+Pseudo element selector :
+
+It is used to style the specific part of the element
+
+p 
+.....
+.....
+....
+.....
+
+p::first-line{
+    background-color:green
+    color:yellow
+}
+
+
+CSS TEXT STYLING/FORMATTING  :It refers to applying styles to the element to control appearance and layout
+
+SYNTAX:
+Selector{
+    property-name:Value
+}
+
+
+CSS TEXT FORMATING PROPERTIES 
+
+text-xolor: Apply color to the specific text 
+
+text-align : specifies horizontol alignment of text in a block or table-cell element
+
+text-align last : sets alignment of last lines accoruing in an element
+
+text-decoration : decorates the text content 
+
+text-decoration-color: sets color of text decorations like overlines, underlines and line-throughs
+
+direction 
+
+letter spacing 
+text shadow 
+text transform 
+text justify 
+
+text -indent 
+
+CSS COLORS : 
+
+color name 
+
+RGB FORMAT 
+
+RGBA FORMAT 
+
+HEXADECIMAL NOTATION 
+
+HSL 
+
+HSLA 
+
+Color Name :
+
+H1{
+    color:red
+}
+
+
+RGB COLOR FORMAT :
+
+RED GREEN BLUE ranging from 0-255
+h1{
+    rgb(R,G,B)
+}
+
+h1{
+    color: rgb(0o,153,0);
+}
+
+RGBA FORMAT:
+
+This is similar to RGB, A (alpha)--> which sepcifies the transparency of the element
+
+A --> 0.0 - 1.0
+
+h1{
+    color:rgba(0,153,0,0.5);
+}
+
+
+Hexadecimal NOTATION:
+
+Begins with #, followed by 6 characters from 0-F 
+
+
+HSL (HUE, SATURATION, LIGHTNESS )
+
+0-360 --> 0 represents red, 120 represents Green, 240 represents Blue color 
+
+SATURATION --> takes the percentage : 0% --> unsaturated 
+
+LIGHTNESS: 100% --> White 
+0% --> Black 
+
+
+HSLA (Something with alpha )
+
+CSS background
+
+It is the shorthand property for setting multiple background properties in one delaration including background color, image
+position, size, repeat, origin, clip, etc. 
+
+body{
+    background-color: red
+}
+
+body{
+    background-image : url(" ")
+
+
+}
+
+Background repeat property: By default the bg image repeats both horizonatlly and vertically
+
+body{
+    background-image:url("");
+    background-repeat: repeat:x // repeat:y
+}
+
+
+// Background attachment :
+
+It is used to fix the bg ground image 
+
+background-attachment: fixed;
+
+background-position: left-top 
+
+CSS FONTS :
+
+these are used to style the text within the html elements;
+The font property specifies the typeface, while font-size, font-weight, font-style control the size, thickness and style of the text 
+
+1. Font-Family Proprty :
+
+It is used to set the font type of an html e,element. 
+
+font-family: "Arial, sans-serif";
+
+Font-STYLE proprty :
+
+font-style:style-name 
+bold, italic, 
+
+Font WEIGHT : bold, bolder
+
+font-weight: value
+Font Variant :
+
+font-variant: value 
+
+font-size: value 
+12px, 10px
+
+// Borders :
+
+are used to define the elements boundry, provides visual separation and structure to web contenr 
+
+in terms of width, style, color
+
+
+
+border-properties :
+
+border-style --> it is used to determine the type of the border
+
+border-width --> sets the width of the border
+
+border-color --> specifies the border color
+
+border-radius  --> creates rounded corners for elements
+
+Common Border Styles :
+
+Dotted 
+Dashed
+Solid 
+Double
+Groove
+Ridge 
+Inset
+Outset 
+None 
+Hidden 
+
+border-style: Dotted 
+border-width: 2px
+border color: red
+border-radius : 20px
+
+bordr-top-style:
+border-bottom-style :
+
+border: dotted 10px Black
+
+CSS STYLING images
+
+it involves css properties to enhancethe appearance and layout of images on a webpage.
+technique includes dimensionss, borders, shadow
+
+Thumbnail Images :
+
+The border property is used to create the thumb nail Images 
+
+Transparent : 
+
+The opacity property is sued to make the image Transparent. It's values lies between 0.0 to 1.0
+
+Center an Image :
+
+The images can be centered by using left-margin and right-margin 
+
+img{
+    margin-left:50px;
+    margin-right:50px
+}
+
+
+CSS LISTS 
+
+1. list-style-type 
+(none, circle, decimal, lower-roman, upper-roman, lower-alpha, upper-alpha, square)
+2. list-style-image 
+
+3. list-style-position
+4. list-style
+
+
+
+
+CSS BOX MODEL :
+
+Box model is container that contains various properties like border, margins, padding and the content itsef.
+
+1. Content : Actual Data in the text 
+2. Padding : It is used to create a space around the element inside any defined border 
+3. Border: It is used to cover the content & any padding 
+4. Margin : It is used to create a space around the element i.e around the border are
+
+p{
+    width:
+    height:
+    margin:
+    border:
+    padding :
+
+
+
+}
+
+-----------------------------------Margin Property-------------------------------
+|BORDER
+|-------------------------PADDING PROPERTY ----------------------------------
+|                                     CONTENT                                |
+|-----------------------------------------------------------------------------
+|-------------------------------------------------------------------------------------
+Border
+Padding
+Content 
+
+Total Width : width+left padding+ right padding +left border+ right border
+
+Total Height : height+top padding+bottom padding + top border+ bottom border
+
+
+
+GRID layout
+
+Current Active Properties :
+
+grid-template-columns : auto 
+
+.class{
+    display:grid
+}
+
+Grid Layout Properties :
+
+column-gap 
+gap
+grid
+grid-area 
+grid-template-rows
+grid-template-columne 
+grid-template-areas
+grid-template 
+grid-row-start 
+grid-row-gap 
+grid-row-emd
+grid-row
+grid-column-start
+grid-column-end 
+grid-column 
+
+
+FlexBox:
+
+Axis: 
+Main Axis : flex-direction
+Cross Axis
+
+Main-Axis :
+
+Flex Direction: row, row-reverse, column, column-reverse
+
+Main Axis:
+
+Main start
+Main size
+Main end
+
+CROSS AXIS:
+Cross start
+cross end
+cross size
+
+l->r --> row
+r->l --> row-reverse
+t-b-->column
+b-->t --> column-reverse
+
+
+TRANSITIONS :
+
+1. transitio-property 
+2. transition-duration 
+3. transition-timing-function
+4. transition-delay 
+
+
+transition-property:
+
+none : 
+all : 
+property1, property2,....
+
+
+transition-duration:
+
+time(s or ms)
+
+transition-timing-function : ease, ease-in, ease-out, linear, step-start, step-end
+
+
+4. transition-delay: time 
+
+
+Shorthand property : (property_name)|(duration)|(timing)|(delay)
+
+CSS ANIMATIONS :
+
+change the behaviour of various elements in a web page.
+They are defined using the @keyframes rule --> sepecifies the animation properties of an element
+@keyframes: specify the animation rule
+animation-name: name 
+animation-duration : time dusration it takes to complete one cycle
+animation-timing-function: linear, ease-in, ease-out 
+animation-delay : delay of the start of an element
+animation=iteration-count: number of times the animation will be repeated 
+animation-direction : direction of the animation 
+animation-fill-mode: how styles are applied before and after the animation 
+animation-play-state: whether the animation is running or is paused 
+
+
+@keyframes animation-name{
+    from{
+
+    }
+
+    to{
+
+    }
+}
+
+SHADOW EFFECTS :
+
+1. text-shadow
+2. box-shadow
+
+CSS TEXT SHADOW 
+
+
+GRID --? faciliated by rows and columns that simplifies the design of the webpage. 
+column-gap -- used to specify the amount of gap between the columns in which a text is divided using the column-count property
+
+gap : used to set the spacing between rows and columns 
+
+grid: it offers the grid based system. 
+
+grid-area: used to set the grid item size and location in grid 
+
+grid-auto-column : 
+
+grid-auto-flow: 
+
+grid-auto-rows: 
+
+
+grid-column: 
+
+grid-column-start 
+grif-column-end 
+
+grid-row-start
+grid-row-end 
+
+
+1. content > 
+2. padding  --sorrounds the center area, space within the box 
+3. border -- lies betweeb padding nd margin 
+4. margin --> separates the element from different elements 
+
+
+CSS VARIABLES :
+
+CUSTOM PROPERTIES THAT ARE USED TO STORE REUSABLE VALUES IN CSS DOCUMENTS. 
+
+DEFINED WITH TWO DASHES (--), THESE VARIABLES ENHANCE THE FUNCTIONALITY AND READABLILITY. 
+
+SYNTAX:
+
+var (-- custom-name, value);
+
+
+var function: take the values of the variables in css
+
+var() --> accepts two parameter:
+
+--custom-name : 
+value: 
